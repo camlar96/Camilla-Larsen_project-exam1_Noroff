@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Spacex launches with sorted list of successfull launches, failed launches and upcoming launches."/>
+    <meta name="keywords" content="spacex launches , launch dates , lists" />
+    <meta name="author" content="Camilla Larsen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>SpaceX | Launches</title>
+  </head>
+
+  <body>
+    <header class="header_index">
+      <div class="h1_header">
+        <a href="index.html"><img src="images/spacex-vector-logo.svg" class="spacex_logo" alt="spaceX logo"></a>
+      </div>
+      <div class="class_hamburger_menu">
+        <label class="menu_label" for="hamburger-menu"><i class="fas fa-bars fa-2x"></i></label>
+          <input type= "checkbox" id="hamburger-menu">   
+            <nav id="navbar">
+              <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href=launches.html class="current">Launches</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>   
+      </div>
+    </header>
+
+    <main id="main_launches">
+      <div class="launches_page">
+        <div class="loader"></div>
+          <div class="scroll_page_header">
+            <h1 class="launches_h1">Successfull Launches </h1>
+              <div class="scroll_page">
+                <div class="launches_big_box_successfull">
+                </div>
+              </div>
+          </div>
+
+      <div class="scroll_page_header">
+        <h1 class="launches_h1">Failed Launches</h1>
+          <div class="scroll_page">
+            <div class="launches_big_box_failed">
+            </div>
+          </div>
+      </div>
+
+
+      <div class="scroll_page_header">
+        <h1 class="launches_h1">Upcoming Launches</h1>
+          <div class="scroll_page">
+            <div class="launches_big_box_next">
+            </div> 
+          </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_box">
+        <br />
+          <div class="soccial_media">
+            <p class="p_footer">Follow SpaceX on social media</p>
+              <div class="media_icons">
+                <img src="images/icons/iconfinder_icon-01_2515846.png" alt="snapchat icon" class="icons">
+                <img src="images/icons/iconfinder_icon-02_2515845.png" alt="Facebook icon" class="icons">
+                <img src="images/icons/iconfinder_icon-03_2515844.png" alt="Twitter icon" class="icons">
+                <img src="images/icons/iconfinder_icon-04_2515843.png" alt="Instagramicon" class="icons">
+              </div>
+          </div>
+            <p class="p_footer">All rights reserved &copy;Camilla Larsen</p>
+            <br />
+      </div>
+    </footer>
+  </main>
+  <script src="js/launches.js"></script>
+  </body>
+</html>
