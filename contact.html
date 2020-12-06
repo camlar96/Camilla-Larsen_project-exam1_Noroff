@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="spacex launches rockets, contact us page" />
+    <meta name="keywords" content="spacex , space , contact us , launch" />
+    <meta name="author" content="Camilla Larsen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>SpaceX | Contact us</title>
+  </head>
+
+  <body>
+    <header class="header_index">
+      <div class="h1_header">
+        <a href="index.html"><img src="images/spacex-vector-logo.svg" class="spacex_logo" alt="spaceX logo"></a>
+      </div>
+      <div class="class_hamburger_menu">
+        <label class="menu_label" for="hamburger-menu"><i class="fas fa-bars fa-2x"></i></label>
+          <input type= "checkbox" id="hamburger-menu">   
+            <nav id="navbar">
+              <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href=launches.html>Launches</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+              </ul>
+            </nav>   
+      </div>
+    </header>
+
+    <main class="main_contact">
+      <div class="contact">
+        <form id="contact_form">
+          <legend>CONTACT US</legend>
+            <div class="contact_text_box"></div>
+              <label> Enter you first name:
+                <br /> <input
+                name="firstName"
+                id="firstName"
+                placeholder="For example: Jane"
+                />
+              </label>
+            <div class="form-error" id="firstNameError">
+              Your first name is required
+            </div>
+
+            <div>
+              <label> Enter your last name:
+                <br /><input
+                name="lastName"
+                id="lastName"
+                placeholder="For example: Doe"
+                />
+              </label>
+            <div class="form-error" id="lastNameError">
+              Your last name is required
+            </div>
+            </div>
+
+          <div>
+            <label> Enter your email:
+              <br /><input
+              name="email"
+              id="email"
+              placeholder="For example: example@outlook.com"
+              />
+            </label>
+          <div class="form-error" id="emailError">
+            Please enter a valid email address
+          </div>
+          </div>
+
+          <div>
+            <label> What can we help you with?
+              <br /><textarea
+              name="subject"
+              id="subject"
+              placeholder="For example: Where can I find information about the missions spaceX have?"
+              cols="40"
+              rows="7"
+              ></textarea>
+            </label>
+            <div class="form-error" id="subjectError">
+              Please write at least 25 letters
+            </div>
+          </div>
+
+          <input
+            type="submit"
+            name="mail_recieved"
+            value="Submit"
+            class="mail_button"
+          />
+        </form>
+      </div>
+    </main> 
+  
+    <footer>
+      <div class="footer_box">
+        <br />
+          <div class="soccial_media">
+            <p class="p_footer">Follow SpaceX on social media</p>
+              <div class="media_icons">
+                <img src="images/icons/iconfinder_icon-01_2515846.png" alt="snapchat icon" class="icons">
+                <img src="images/icons/iconfinder_icon-02_2515845.png" alt="Facebook icon" class="icons">
+                <img src="images/icons/iconfinder_icon-03_2515844.png" alt="Twitter icon" class="icons">
+                <img src="images/icons/iconfinder_icon-04_2515843.png" alt="Instagramicon" class="icons">
+              </div>
+          </div>
+            <p class="p_footer">All rights reserved &copy;Camilla Larsen</p>
+            <br />
+      </div>
+    </footer>
+  <script src="js/contact.js"></script>
+  </body>
+</html>
